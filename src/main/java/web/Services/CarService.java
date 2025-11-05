@@ -18,6 +18,7 @@ public class CarService {
         cars.add(new Car(3, "Mercedes", "blue"));
         cars.add(new Car(4, "AUDI", "red"));
         cars.add(new Car(5, "Shkoda", "brown"));
+        System.out.println("Hello");
     }
 
     public List<Car> getAllCars(Integer count) {
